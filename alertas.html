@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Alertas</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div id="menu-placeholder"></div>
+
+    <main class="main-content">
+        <header class="topbar">
+            <div>
+                <h1>Alertas</h1>
+                <p>Veja os avisos mais urgentes e as pendências do dia.</p>
+            </div>
+        </header>
+
+        <section class="module-card">
+            <div class="module-header">
+                <div class="module-title-wrap">
+                    <div class="icon-box module-icon">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div>
+                        <h3>Prioridades do dia</h3>
+                        <p>Itens que necessitam atenção imediata</p>
+                    </div>
+                </div>
+                <span class="pill warning">Hoje</span>
+            </div>
+
+            <ul class="module-list">
+                <li class="module-item">
+                    <strong>Medicamento atrasado</strong>
+                    <span>A dose de 10:00h ainda não foi confirmada pela equipe.</span>
+                    <div class="meta">
+                        <span>10 min atrás</span>
+                        <span class="pill warning">Urgente</span>
+                    </div>
+                </li>
+                <li class="module-item">
+                    <strong>Pressão alterada</strong>
+                    <span>Leitura registrada fora da faixa esperada para o horário.</span>
+                    <div class="meta">
+                        <span>45 min atrás</span>
+                        <span class="pill info">Atenção</span>
+                    </div>
+                </li>
+                <li class="module-item">
+                    <strong>Check-in não confirmado</strong>
+                    <span>A rotina da tarde ainda não foi finalizada pelo cuidador.</span>
+                    <div class="meta">
+                        <span>1h atrás</span>
+                        <span class="pill positive">Pendente</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+</div>
+
+<div id="footer-placeholder"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
